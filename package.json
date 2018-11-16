@@ -1,0 +1,28 @@
+{
+  "name": "grocerify-api",
+  "version": "1.0.0",
+  "description": "A simple nodejs and express api.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon  server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gidraff/grocerify-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gidraff/grocerify-api/issues"
+  },
+  "homepage": "https://github.com/Gidraff/grocerify-api#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "compression": "^1.7.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "mongoose": "^5.3.12"
+  }
+}
